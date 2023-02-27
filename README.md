@@ -25,7 +25,7 @@ cd flask-redis-docker-compose
 ```
 
 3. Create Dockerfile to build image from python code.
-4. Create docker-compose.yml to manage containers from the image builded from previous step and official redis image.
+4. Create docker-compose.yml to manage containers from Dockerfile from previous step and official redis image.
 5. Start the application using Docker Compose.
 ```bash
 docker-compose up
